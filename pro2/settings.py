@@ -83,6 +83,8 @@ DATABASES = {
         "NAME":"api",
         "USER":"root",
         "PASSWORD":"root",
+        'HOST': 'localhost',   # or the IP address of your MySQL server
+        'PORT': '3306',
     }
 }
 
